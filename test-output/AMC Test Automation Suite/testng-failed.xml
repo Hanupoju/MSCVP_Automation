@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AMC Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.amc.qa.TestListeners.ExtentReportListener"/>
+  </listeners>
+  <test name="AMC Application Automation TestCases(failed)">
+    <classes>
+      <class name="com.amc.qa.testcases.WarHouseVolumePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateDocumentTypeDropDownOptions"/>
+          <include name="validateWarehoueDropDownValues"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setLog4j"/>
+        </methods>
+      </class> <!-- com.amc.qa.testcases.WarHouseVolumePageTestCases -->
+      <class name="com.amc.qa.testcases.WarHouseOrderManagementPageTestCases">
+        <methods>
+          <include name="validateWarHouseOrderManagementAddFilterBtnAlertMessage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setLog4j"/>
+        </methods>
+      </class> <!-- com.amc.qa.testcases.WarHouseOrderManagementPageTestCases -->
+      <class name="com.amc.qa.testcases.TPVolumesTestCases">
+        <methods>
+          <include name="ValidateDocumentTypeDropDownOptions"/>
+          <include name="tearDown"/>
+          <include name="ValidateTradingPartnerDropDownOptions"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setLog4j"/>
+        </methods>
+      </class> <!-- com.amc.qa.testcases.TPVolumesTestCases -->
+    </classes>
+  </test> <!-- AMC Application Automation TestCases(failed) -->
+</suite> <!-- Failed suite [AMC Test Automation Suite] -->

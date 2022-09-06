@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10627" started-at="2022-08-03T15:59:45Z" finished-at="2022-08-03T15:59:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10627" started-at="2022-08-03T15:59:45Z" finished-at="2022-08-03T15:59:55Z">
+      <class name="com.amc.qa.testcases.WarHouseVolumePageTestCases">
+        <test-method status="PASS" signature="setLog4j()[pri:0, instance:com.amc.qa.testcases.WarHouseVolumePageTestCases@7ed7259e]" name="setLog4j" is-config="true" duration-ms="7" started-at="2022-08-03T21:29:45Z" finished-at="2022-08-03T21:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLog4j -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amc.qa.testcases.WarHouseVolumePageTestCases@7ed7259e]" name="setUp" is-config="true" duration-ms="3315" started-at="2022-08-03T21:29:45Z" finished-at="2022-08-03T21:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateStatusDropDownOptions()[pri:0, instance:com.amc.qa.testcases.WarHouseVolumePageTestCases@7ed7259e]" name="validateStatusDropDownOptions" duration-ms="6472" started-at="2022-08-03T21:29:48Z" finished-at="2022-08-03T21:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusDropDownOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amc.qa.testcases.WarHouseVolumePageTestCases@7ed7259e]" name="tearDown" is-config="true" duration-ms="824" started-at="2022-08-03T21:29:54Z" finished-at="2022-08-03T21:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amc.qa.testcases.WarHouseVolumePageTestCases@7ed7259e]" name="endReport" is-config="true" duration-ms="0" started-at="2022-08-03T21:29:55Z" finished-at="2022-08-03T21:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.amc.qa.testcases.WarHouseVolumePageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

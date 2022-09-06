@@ -1,0 +1,5 @@
+2022-08-01 20:53:19,470  INFO [main] TPVolumesPage:59 - Successfully Logged into AMC Application
+2022-08-01 20:53:19,554  INFO [main] TPVolumesPage:61 - Successfully Logged into AMC Application
+2022-08-01 20:53:53,673  INFO [main] DBDropdownValuesValidation:70 - Successfully Validated Trading partner Dropdown Options
+2022-08-01 20:53:54,485  INFO [main] DBDropdownValuesValidation:133 - Browser Terminated
+2022-08-01 20:53:54,486  INFO [main] DBDropdownValuesValidation:134 - -----------------------------------------------
